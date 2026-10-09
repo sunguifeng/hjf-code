@@ -1,0 +1,19 @@
+{
+  "log": {
+    "level": "INFO",
+    "file": "~/.mychat/logs/mychat.log",
+    "max_bytes": 2097152,
+    "backup_count": 5
+  },
+  "agent": {
+    "max_steps": 20
+  },
+  "model": {
+    "api_key": "你的key值",
+    "base_url": "你的url",
+    "name": "glm-5.3",
+    "protocol": "anthropic",
+    "max_retries": 3,
+    "timeout": 180
+  }
+}
