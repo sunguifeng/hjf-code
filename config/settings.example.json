@@ -1,0 +1,18 @@
+{
+  "log": {
+    "level": "INFO",
+    "file": "~/.mychat/logs/mychat.log",
+    "max_bytes": 2097152,
+    "backup_count": 5
+  },
+  "agent": {
+    "max_steps": 20
+  },
+  "model": {
+    "api_key": "在这里填入你的豆包 Coding Plan 专属 Key",
+    "base_url": "https://ark.cn-beijing.volces.com/api/coding",
+    "name": "glm-5.3",
+    "max_retries": 3,
+    "timeout": 180
+  }
+}
